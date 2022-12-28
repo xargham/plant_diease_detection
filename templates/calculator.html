@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Fertilizer Calculator</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="static/css/bootstrap.css" />
+  <!-- fonts awesome style -->
+  <link href="static/css/font-awesome.min.css" rel="stylesheet" />
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,,600,700|Poppins:400,500,700&display=swap" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="static/css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="static/css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="title">Plot Size (Acre)</div>
+        <div class="value-calculator">
+            <button id="minus" class="btn btn-cal" onclick="minus()">-</button>
+            <input id="plot-size" type="text" placeholder="0.0">
+            <button id="plus" class="btn btn-cal" onclick="plus()">+</button>
+        </div>
+        <button class="btn btn-calculate" onclick="calculate()">calculate</button>
+        <div class="amounts">
+            <div id="dap">Dap</div>
+            <div id="mop">Mop</div>
+            <div id="urea">Urea</div>
+        </div>
+    </div>
+</body>
+<footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved. Design by Behram and Awais
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <script src="static/js/jquery-3.4.1.min.js"></script>
+  <script src="static/js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="static/js/custom.js"></script>
+  <script src="static/js/script.js"></script>
+</html>
